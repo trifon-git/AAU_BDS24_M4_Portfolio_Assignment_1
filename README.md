@@ -47,17 +47,5 @@ This project applies deep learning techniques to predict house prices using a **
   - **Batch Size**: `64`
   - **Activation Function**: `ReLU`
   
----
-
-
-### 🔬 Future Improvements
-- **Regularization**: Add **dropout layers (0.2 - 0.3)** to reduce overfitting.
-- **Compare Optimizers**: Test **SGD with momentum** (`0.9`) vs. **Adam**.
-- **Feature Engineering**:
-  - Apply **log transformation** to `SalePrice` to normalize skewed prices.
-  - Create **more interaction features** (e.g., `OverallQual * OverallCond`).
-- **Hyperparameter Tuning**:
-  - Experiment with **deeper architectures** (e.g., `[256, 128, 64, 32]`).
-  - Adjust **learning rate decay** using a **scheduler**.
 
 
