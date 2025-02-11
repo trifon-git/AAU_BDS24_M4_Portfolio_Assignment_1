@@ -39,14 +39,16 @@ This project applies deep learning techniques to predict house prices using a **
 ### 📊 Model Performance
 - **Best Architecture**: `[128, 64, 32]`
 - **Optimizer**: `Adam`
-- **Best RMSE**: `48,936`
-- **Best MAE**: `33,430`
-- **Best R² Score**: `0.6878`
+- **Best RMSE**: `49,885`
+- **Best MAE**: `32,727`
+- **Best R² Score**: `0.676`
 - **Best Hyperparameters**:
   - **Learning Rate**: `0.001`
-  - **Batch Size**: `32`
+  - **Batch Size**: `64`
+  - **Activation Function**: `ReLU`
   
 ---
+
 
 ### 🔬 Future Improvements
 - **Regularization**: Add **dropout layers (0.2 - 0.3)** to reduce overfitting.
